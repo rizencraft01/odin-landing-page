@@ -16,7 +16,7 @@ body {
     color: #F9FAF8;
 }
 
-.logo {
+.header-logo {
     width: 300px;
     height: 220px;
 }
@@ -35,5 +35,41 @@ li {
 
 a {
     color: #E6E7EB;
-        text-decoration: none;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 18px;
+    color: #E6E7EB;
+}
+
+button {
+   background-color: #3882F6;
+   border-radius: 10px;
+}
+
+.image-container {
+    
+}
+
+.hero-logo {
+    
+    font-size: 24px;
+    color: #F9FAF8;
 }
